@@ -1,0 +1,16 @@
+Ogrenci Bİlgi Sistemi DataBase kullanarak form ekranları oluşturacağız 
+
+Masa Üstü Uygulaması gerekiyor
+-->Hocaya Flutter veya Xamarin kullanıp kullanamaacağını sor masaüstü uygulaması dedi sadece ama mobil bir application yapmamız uygun olurmu ? Muhtemelen olmayacak masaüstü diyor hala D o yüzden devamke 
+
+Hoca son kullanıcı olacakmış bir tane exe verecekmişiz hocaya hoca bunu indirecek kuracakmış ve sanki gercek 
+bir işmiş gibi hocaya teslim edip notlandırmasını sağlayacakmışız ? Drek indir kur yapacakmış 
+
+Direk indir kur yapabilmesi icin databaseyi sql dışında nasıl devam edermişiz bunu ogren txt dosyasına not al girdileri bilgileri  veri tabanı bağlantısı istiyor imiş o zaman hocaya şoyle yaptırırız klasik yaptığın gibi devam edersin hoca sadece connstringi değişir  sonra Migrate eder ve kullanamya başlar misss.
+
+Ogrenci Veli Alınan Notlar Ortalama Geçme-Kalma Durumu Tüm tablolarda kimlik olarak ogrenci tc no kullanılacak
+
+Listeleme yapılacak mesela X dersini alan kişileri getirmemizi istiyor bizden ders adını ve ogrencilerin adını almak istersen şoyle yap unutma burayı okursun inşallah 
+return Json(x=>x.ıd == dersAdı).include(y=>y.tcNo==ogrenciAdi).ToList():
+
+istediğiniz programlama dili
